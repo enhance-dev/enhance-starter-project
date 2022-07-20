@@ -1,5 +1,5 @@
 @app
-thrasher
+myproj
 
 @http
 
@@ -8,6 +8,3 @@ src app
 
 @plugins
 enhance/arc-plugin-enhance
-
-#@bundles
-#store 'node_modules/@enhance/store'

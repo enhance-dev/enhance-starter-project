@@ -1,4 +1,6 @@
 {
+  "name": "@enhance/starter-project",
+  "version": "1.0.0",
   "scripts": {
     "start": "sandbox"
   },
