@@ -6,17 +6,12 @@ adds file based routing w server rendered custom elements
 
 ```
 app
-├── api ............. api routes
-├── elements.mjs .... custom elements manifest
-├── head.mjs ........ <head> element
-└── pages ........... custom elements that map to routes (eg. /about renders about.mjs)
-    ├── 404.mjs
-    ├── 500.mjs
-    ├── about.mjs
-    ├── index.html
-    └── notes
-        ├── $id.mjs
-        └── index.mjs
+├── elements .......... define pure functions that return custom elements 
+│   ├── footer.mjs
+│   └── header.mjs
+├── elements.mjs ...... define tag names for custom element definitions
+└── pages ............. file based routing
+    └── index.html
 ```
 
 ### Decisions
