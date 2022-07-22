@@ -2,10 +2,7 @@
   "name": "@enhance/starter-project",
   "version": "1.0.1",
   "scripts": {
-    "start": "sandbox"
-  },
-  "devDependencies": {
-    "@architect/sandbox": "latest"
+    "start": "begin dev"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"
