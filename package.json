@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "prepare": "./scripts/createManifest.js",
     "start": "sandbox"
