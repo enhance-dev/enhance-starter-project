@@ -2,7 +2,7 @@
   "name": "@enhance/starter-project",
   "version": "1.0.3",
   "scripts": {
-    "prepare": "./scripts/createManifest.js",
+    "postinstall": "./scripts/createManifest.js",
     "start": "sandbox"
   },
   "devDependencies": {
