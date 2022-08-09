@@ -1,9 +1,9 @@
 .env
 .DS_Store
+manifest.json
 node_modules
-public/static.json
+package-lock.json
 public/bundles
+public/static.json
 sam.json
 sam.yaml
-package-lock.json
-manifest.json
