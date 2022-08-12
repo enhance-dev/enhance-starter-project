@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "scripts": {
     "postinstall": "node ./scripts/createManifest.js",
     "start": "sandbox",
@@ -19,7 +19,10 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-      "indent": ["error", 2]
+      "indent": [
+        "error",
+        2
+      ]
     },
     "ignorePatterns": [],
     "parserOptions": {
