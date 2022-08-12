@@ -6,8 +6,9 @@ adds file based routing w server rendered custom elements
 
 ```
 app
+├── api ............... file based routing for rendering json, or populating initial page state
 ├── elements .......... define pure functions that return custom elements
-└── pages ............. file based routing
+└── pages ............. file based routing for rendering html
     └── index.html
 ```
 

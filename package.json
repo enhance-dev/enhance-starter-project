@@ -18,7 +18,9 @@
       "node": true
     },
     "extends": "eslint:recommended",
-    "rules": {},
+    "rules": {
+      "indent": ["error", 2]
+    },
     "ignorePatterns": [],
     "parserOptions": {
       "sourceType": "module",
