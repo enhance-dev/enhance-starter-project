@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "scripts": {
     "postinstall": "node ./scripts/createManifest.js",
     "start": "sandbox",
@@ -14,7 +14,9 @@
     "@enhance/arc-plugin-enhance": "latest"
   },
   "eslintConfig": {
-    "env": { "node": true },
+    "env": {
+      "node": true
+    },
     "extends": "eslint:recommended",
     "rules": {},
     "ignorePatterns": [],
