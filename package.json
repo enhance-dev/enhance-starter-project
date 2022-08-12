@@ -3,12 +3,24 @@
   "version": "1.0.8",
   "scripts": {
     "postinstall": "node ./scripts/createManifest.js",
-    "start": "sandbox"
+    "start": "sandbox",
+    "lint": "eslint ./app/**/*.mjs --fix"
   },
   "devDependencies": {
-    "@architect/sandbox": "latest"
+    "@architect/sandbox": "latest",
+    "eslint": "latest"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"
+  },
+  "eslintConfig": {
+    "env": { "node": true },
+    "extends": "eslint:recommended",
+    "rules": {},
+    "ignorePatterns": [],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2022
+    }
   }
 }
