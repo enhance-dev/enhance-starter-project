@@ -21,8 +21,6 @@ let manifest = {
     fileList: []
 }
 
-manifest.fileList.push('@enhance/starter-project/.gitignore')
-manifest.fileList.push('@enhance/starter-project/.npmignore')
 manifest.fileList.push('@enhance/starter-project/prefs.arc')
 manifest.fileList.push(...readDir('./app'))
 manifest.fileList.push(...readDir('./public'))
