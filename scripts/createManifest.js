@@ -5,22 +5,23 @@ const { lstatSync, readdirSync, writeFileSync } = require('fs')
 const cwd = process.cwd()
 
 function readDir(directory) {
-    let files = []
-    readdirSync(directory).forEach(file => {
-        let current = resolve(directory, file)
-        if (lstatSync(current).isDirectory()) {
-            files.push(...readDir(current))
-        } else {
-            files.push(current.replace(cwd, '@enhance/starter-project'))
-        }
-    });
-    return files
+  let files = []
+  readdirSync(directory).forEach(file => {
+    let current = resolve(directory, file)
+    if (lstatSync(current).isDirectory()) {
+      files.push(...readDir(current))
+    } else {
+      files.push(current.replace(cwd, '@enhance/starter-project'))
+    }
+  });
+  return files
 }
 
 let manifest = {
-    fileList: []
+  fileList: []
 }
 
+manifest.fileList.push('@enhance/starter-project/.npmignore')
 manifest.fileList.push('@enhance/starter-project/prefs.arc')
 manifest.fileList.push(...readDir('./app'))
 manifest.fileList.push(...readDir('./public'))
