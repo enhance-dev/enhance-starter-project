@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@architect/sandbox": "latest",
+    "@enhance/types": "latest",
     "eslint": "latest"
   },
   "dependencies": {
