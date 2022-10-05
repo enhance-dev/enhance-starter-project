@@ -1,3 +1,14 @@
+## Project setup
+```
+npm install
+```
+
+### Run
+```
+npm start
+```
+
+
 # `@enhance/enhance-starter-project`
 
 adds file based routing w server rendered custom elements
