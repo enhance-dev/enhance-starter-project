@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "scripts": {
     "postinstall": "node ./scripts/createManifest.js",
     "start": "sandbox",
