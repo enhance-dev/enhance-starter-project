@@ -7,12 +7,12 @@
     "lint": "eslint ./app/**/*.mjs --fix"
   },
   "devDependencies": {
-    "@architect/sandbox": "latest",
-    "@enhance/types": "latest",
-    "eslint": "latest"
+    "@architect/sandbox": "^5.4.1",
+    "@enhance/types": "^0.4.0",
+    "eslint": "^8.29.0"
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "latest"
+    "@enhance/arc-plugin-enhance": "^4.1.0"
   },
   "eslintConfig": {
     "env": {
