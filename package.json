@@ -11,9 +11,6 @@
     "@enhance/types": "^0.4.0",
     "eslint": "^8.29.0"
   },
-  "dependencies": {
-    "@enhance/arc-plugin-enhance": "^4.1.0"
-  },
   "eslintConfig": {
     "env": {
       "node": true
@@ -30,5 +27,8 @@
       "sourceType": "module",
       "ecmaVersion": 2022
     }
+  },
+  "dependencies": {
+    "@enhance/arc-plugin-enhance": "^4.2.0"
   }
 }
