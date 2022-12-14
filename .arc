@@ -1,5 +1,5 @@
 @app
-my-enhance-project
+myproj
 
 @plugins
 enhance/arc-plugin-enhance
