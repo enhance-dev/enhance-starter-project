@@ -1,9 +1,18 @@
 .env
-.DS_Store
-manifest.json
-node_modules
-package-lock.json
-public/bundles
+node_modules/
+
+# Enhance temp files
+.enhance/
+
+# Generated assets
 public/static.json
+public/bundles/
+public/pages/
+
+manifest.json
+
+# Architect CloudFormation
 sam.json
 sam.yaml
+
+.DS_Store
