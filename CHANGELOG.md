@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.3.0] 2022-12-14
+
+### Added
+
+Adds pruning of static assets by default
+
+### changed
+
+Updates `@enhance/arc-plugin-enhance` to latest which includes `arc-plugin-rollup`
+Updates `.gitignore` to reflect moving styles from `tmp/` to `.enhance`
+
 ## [3.2.0] 2022-12-08
 
 ### changed
