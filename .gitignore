@@ -1,18 +1,6 @@
-.env
+# .gitignore for this template project
+# template.gitignore should be used by generated projects
 node_modules/
-
-# Enhance temp files
-.enhance/
-
-# Generated assets
-public/static.json
-public/bundles/
-public/pages/
-
 manifest.json
-
-# Architect CloudFormation
-sam.json
-sam.yaml
-
+package-lock.json
 .DS_Store
