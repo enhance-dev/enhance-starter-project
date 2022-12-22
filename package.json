@@ -5,9 +5,6 @@
     "start": "sandbox",
     "lint": "eslint ./app/**/*.mjs --fix"
   },
-  "dependencies": {
-    "@enhance/arc-plugin-enhance": "^4.3.1"
-  },
   "devDependencies": {
     "@architect/sandbox": "^5.4.1",
     "@enhance/types": "^0.5.0",
@@ -29,5 +26,8 @@
       "sourceType": "module",
       "ecmaVersion": 2022
     }
+  },
+  "dependencies": {
+    "@enhance/arc-plugin-enhance": "^4.3.3"
   }
 }
