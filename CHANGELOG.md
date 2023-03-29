@@ -5,7 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [4.0.2] 2023-03-29
+
+### Update
+Updates to latest Enhance SSR which adds `context` and `instanceID` support
+Updates to latest Enhance styles which updates script name to `enhance-styles` from `enhance`
+Updates to latest Architect sandbox
+
+### Fixes
+Fixes passing all user supplied headers
 
 ## [3.3.3] 2022-12-22
 
