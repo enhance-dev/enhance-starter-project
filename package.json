@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "scripts": {
     "start": "sandbox",
     "lint": "eslint ./app/**/*.mjs --fix"
