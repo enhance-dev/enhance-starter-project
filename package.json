@@ -2,11 +2,12 @@
   "name": "@enhance/starter-project",
   "version": "4.1.1",
   "scripts": {
-    "start": "sandbox",
+    "enhance": "enhance",
+    "start": "enhance dev",
     "lint": "eslint ./app/**/*.mjs --fix"
   },
   "devDependencies": {
-    "@architect/sandbox": "^5.5.4",
+    "@enhance/cli": "^0.0.8",
     "@enhance/types": "^0.6.0",
     "eslint": "^8.30.0"
   },
