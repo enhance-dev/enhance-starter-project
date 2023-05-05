@@ -1,6 +1,6 @@
 {
   "name": "@enhance/starter-project",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "scripts": {
     "start": "npx enhance dev",
     "lint": "eslint ./app/**/*.mjs --fix"
