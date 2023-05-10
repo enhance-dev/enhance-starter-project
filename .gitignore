@@ -4,3 +4,5 @@ node_modules/
 manifest.json
 package-lock.json
 .DS_Store
+.enhance/
+public/static.json
