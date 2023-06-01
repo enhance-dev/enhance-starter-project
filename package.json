@@ -28,6 +28,6 @@
     }
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "^6.1.0"
+    "@enhance/arc-plugin-enhance": "^6.1.1"
   }
 }
