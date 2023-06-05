@@ -6,7 +6,7 @@
     "lint": "eslint ./app/**/*.mjs --fix"
   },
   "devDependencies": {
-    "@enhance/cli": "^0.0.8",
+    "@enhance/cli": "^1.0.3",
     "@enhance/types": "^0.6.0",
     "eslint": "^8.30.0"
   },
