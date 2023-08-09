@@ -6,6 +6,7 @@ node_modules/
 
 # Generated assets
 public/static.json
+public/browser/
 public/bundles/
 public/pages/
 
