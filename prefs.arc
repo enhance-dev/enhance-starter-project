@@ -1,2 +1,0 @@
-@sandbox
-livereload true
