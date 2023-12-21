@@ -4,7 +4,9 @@ const { linkTag } = getStyles
 
 export default function Head(state) {
   const { store = {} } = state
-  const { pageTitle = 'Enhance Starter Project' } = store
+  // pageTitle is set in /app/preflight.mjs
+  const { pageTitle = '' } = store
+
   return `
     <!DOCTYPE html>
     <html lang="en">
