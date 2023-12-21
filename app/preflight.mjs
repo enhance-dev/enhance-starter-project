@@ -6,8 +6,8 @@ export default function Preflight({ req }) {
 
 function getPageTitle(path) {
   const titleMap = {
-    //'/': 'Home'
+    '/': 'Enhance Starter Project'
   }
 
-  return titleMap[path] || 'Enhance Starter Project'
+  return titleMap[path]
 }
