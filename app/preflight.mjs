@@ -1,4 +1,4 @@
-export default function Preflight({ req }) {
+export default async function Preflight({ req }) {
   return {
     pageTitle: getPageTitle(req.path)
   }
