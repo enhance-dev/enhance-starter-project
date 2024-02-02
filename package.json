@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "^9.4.2",
+    "@enhance/arc-plugin-enhance": "^9.4.3",
     "@enhance/styles-cribsheet": "^0.0.9"
   }
 }
