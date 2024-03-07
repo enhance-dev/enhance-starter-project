@@ -8,27 +8,42 @@ defaults:
     shell: bash
 
 jobs:
+  test:
+    # Setup
+    runs-on: ubuntu-latest
+
+    # Go
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Integration Tests
+        uses: enhance-dev/actions/integration@main
+
   # ----- Only git tag testing + package publishing beyond this point ----- #
 
   # Publish to package registries
   publish:
     # Setup
+    needs: test
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
 
     # Go
     steps:
       - name: Check out repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-
-      - name: Create manifest.json
-        run: node scripts/create-manifest.js
 
       # Publish to npm
       - name: Publish @RC to npm
