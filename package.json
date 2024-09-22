@@ -6,8 +6,8 @@
     "lint": "eslint ./app/**/*.mjs --fix"
   },
   "devDependencies": {
-    "@enhance/cli": "^1.0.7",
-    "@enhance/types": "^0.6.1",
+    "@enhance/cli": "^1.2.1",
+    "@enhance/types": "^0.7.0",
     "eslint": "^8.49.0"
   },
   "eslintConfig": {
@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "^11.0.0",
+    "@enhance/arc-plugin-enhance": "^11.0.4",
     "@enhance/arc-plugin-styles": "^5.0.5",
     "@enhance/styles-cribsheet": "^0.0.11"
   }
